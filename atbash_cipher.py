@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def main():
     cipher_text = input("Cipher text: ").lower()
     clear_text = ''.join(transform_character(c) for c in cipher_text)
