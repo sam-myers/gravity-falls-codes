@@ -27,3 +27,15 @@
 | S01 E06     | Dipper vs. Manliness          | Caesar -3 | pu. fdhvduldq zloo eh rxw qhaw zhhn.<br>pu. dwedvk zloo vxevwlwxwh. |
 | S01 E07     | Double Dipper                 | Atbash    | kzkvi qzn wrkkvi hzbh: "zfftsdcjstzwhzwfs!"                         |
 | S01 E08     | Irrational Treasure           | Atbash    | v. kofiryfh givnyovb                                                |
+
+# Play with the Ciphers
+
+Use the below link to open a dev environment
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sam-myers/gravity-falls-codes)
+
+Example:
+
+```
+./caeser_cipher.py
+```
