@@ -1,12 +1,20 @@
 #!/usr/bin/env python
 
+from sys import stdin
+
 CAESER_SHIFT = -3
 
 
 def main():
-    cipher_text = input("Cipher text: ").lower()
-    clear_text = ''.join(transform_character(c) for c in cipher_text)
-    print(f"Plain text: {clear_text}")
+    if stdin.isatty():
+        cipher_text = input("Cipher text: ")
+        print(f"Plain text: {transform_text(cipher_text)}")
+    else:
+        print(transform_text(input()))
+
+
+def transform_text(cipher_text):
+    return ''.join(transform_character(c) for c in cipher_text.lower())
 
 
 def transform_character(char):
